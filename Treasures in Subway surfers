@@ -1,0 +1,27 @@
+Here is a simple C program to calculate the total weight of treasures collected by Mr. John in Subway Surfers:
+
+```
+#include <stdio.h>
+
+int main() {
+    // Define the weights of the five treasures
+    int treasureWeights[5] = {10, 20, 30, 40, 50};
+
+    // Initialize a variable to store the total weight
+    int totalWeight = 0;
+
+    // Loop through each treasure and add its weight to the total
+    for (int i = 0; i < 5; i++) {
+        totalWeight += treasureWeights[i];
+    }
+
+    // Print the total weight
+    printf("Total weight collected: %d\n", totalWeight);
+
+    return 0;
+}
+```
+
+In this program, we define an array `treasureWeights` to store the weights of the five treasures. We then initialize a variable `totalWeight` to zero to store the total weight collected. Using a `for` loop, we iterate through each treasure, adding its weight to `totalWeight`. Finally, we print the total weight collected.
+
+Note: This program assumes that Mr. John collects all five treasures. If he doesn't collect all treasures, you would need to modify the program to account for that.
